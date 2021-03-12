@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title> First Page </title>
+
+    <style>
+        .txt {
+            background-color: white;
+            color: black;
+            width: 300px;
+            height: 24px;
+            border-radius: 10px;
+        }
+        
+        .btn {
+            background-color: darkblue;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <h1> First Page</h1>
+    <h2> hello </h2>
+    <h3> hello </h3>
+    <h4> hello </h4>
+    <h5> hello </h5>
+    <h6> hello </h6>
+
+
+    <div style="height: 100px; background-color: darkblue;color:white;">
+        Header
+    </div>
+    <div style="height: 500px; border: 2px solid red; ">
+
+        <table border="0" style="width: 100%;">
+            <tr>
+                <td align="right">
+                    First Name :
+                </td>
+                <td>
+                    <input type="text" class="txt" />
+
+                </td>
+                <td align="right">
+                    Last Name :
+                </td>
+                <td>
+                    <input type="text" class="txt" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    Email:
+                </td>
+                <td>
+                    <input type="text" class="txt" />
+                </td>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="button" value="submit" class="btn" onclick="frmSubmit()" />
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div>
+        footer
+    </div>
+
+
+    <script>
+        function frmSubmit() {
+
+            alert("Hey, you have clicked on button !");
+
+        }
+    </script>
+
+</body>
+
+</html>
